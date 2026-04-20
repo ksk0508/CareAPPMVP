@@ -1,0 +1,72 @@
+{
+  "users": [
+    {
+      "id": "doctor-001",
+      "email": "doctor@example.com",
+      "name": "Dr. Sarah Johnson",
+      "phone": "555-0100",
+      "role": "Doctor",
+      "practitionerId": "doctor-001",
+      "passwordHash": "$2a$10$N9qo8uLOickgx2ZMRZoMyeIjZAgcg7b3XeKeUxWdeS86E36gGUUe",
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "patient-001",
+      "email": "patient@example.com",
+      "name": "John Doe",
+      "phone": "555-0200",
+      "role": "Patient",
+      "patientId": "patient-001",
+      "passwordHash": "$2a$10$N9qo8uLOickgx2ZMRZoMyeIjZAgcg7b3XeKeUxWdeS86E36gGUUe",
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    }
+  ],
+  "patients": [],
+  "tasks": [
+    {
+      "id": "task-1",
+      "title": "Blood Pressure Monitoring",
+      "category": "Monitoring",
+      "description": "Measure blood pressure twice daily and record the values.",
+      "instructions": "Use the provided cuff and enter your readings into the app morning and evening.",
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "task-2",
+      "title": "Medication Review",
+      "category": "Medication",
+      "description": "Review your prescribed medicines and confirm dosage adherence.",
+      "instructions": "Record each dose taken and notify the doctor if any side effects appear.",
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "task-3",
+      "title": "CBC Lab Test",
+      "category": "Lab Test",
+      "description": "Complete blood count to evaluate hemoglobin, white cells, and platelets.",
+      "instructions": "Schedule the test in the morning and upload the report once ready.",
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "task-4",
+      "title": "Chest X-ray",
+      "category": "Imaging",
+      "description": "Obtain a chest X-ray to review lung and heart status.",
+      "instructions": "Visit a licensed imaging center and attach the report to the app.",
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "task-5",
+      "title": "Physiotherapy Session",
+      "category": "Therapy",
+      "description": "Follow daily physiotherapy exercises for rehabilitation.",
+      "instructions": "Complete the prescribed routine and log your comfort level after each session.",
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    }
+  ],
+  "careplans": [],
+  "taskExecutions": [],
+  "diagnostics": [],
+  "notifications": [],
+  "notificationPreferences": []
+}
